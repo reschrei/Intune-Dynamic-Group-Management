@@ -54,7 +54,7 @@ Connect-MgGraph
 # Gather a complete list of apps
 $detectedApps = Get-MgDeviceManagementDetectedApp -All
 
-Display the list, feel free to manipulate this data as needed
+# Display the list, feel free to manipulate this data as needed
 $detectedApps
 ```
 
