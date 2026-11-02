@@ -1,0 +1,15 @@
+---
+# Populates a group with machines containing a specific applications.
+# (Required) name: <Entra Group Name>
+# (Required) syncType: App
+# (Optional) application: <name of application>
+# (Optional) version: <specific version number>
+
+- name: Auto - Foxit PDF Reader
+  syncType: App
+  application: Foxit PDF Reader
+  version: 2026.1.3.36551
+
+- name: Auto - Google Chrome
+  syncType: app
+  application: Google Chrome
