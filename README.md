@@ -1,9 +1,14 @@
 # Intune Device Group Builder
-The purpose of this project is to provide an automated way to build device groups in Entra ID / Intune. There are currently limitation on what data can be used to build dynamic device groups within Intune, this project will bridge the gap that the built in web tools.
+The purpose of this project is to provide an automated way to build device groups in Entra ID / Intune. There is currently limitations on what data can be used to build dynamic device groups within Intune, this project will bridge the gap that the built in web tools.
 
 This tool will both add devices that match the criteria as well as remove them. This way you never have devices sitting in groups that are inaccurate due to stale data, granted you run this script on a regular basis.
 
 This project wasn't created with efficiency in mind, but it does get the job done. There are plans to widen the scope beyond just application installs (Hardware installed, patch level, etc.)
+
+### What data can I build groups off of?
+* Applications
+
+If there is interest in building groups from other graph data, please create a Issue. Otherwise you're more than welcome to contribute!
 
 ## Prerequisites
 * PowerShell Modules
